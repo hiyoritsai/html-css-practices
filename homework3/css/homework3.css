@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.clear{
+	clear: both;
+}
+header{
+	background-color: lightseagreen;
+	height: 60px;
+}
+header img{
+	margin-top: 10px;
+}
+aside{
+	width: 12%;
+	float: left;
+}
+h1{
+	font-size: 13px;
+	font-weight: 400;
+	font-family: "microsoft yahei";
+}
+hgroup{
+	padding-left:10px ;
+	padding-bottom: 25px;
+	padding-top: 10px;
+	line-height: 2em;
+}
+section{
+	width: 88%;
+	float: right;
+}
+section div:first-of-type{
+	height: 50px;
+	line-height: 50px;
+	padding-left: 10px;
+	border-color: lightgray;
+	border-width: 3px;
+	border-style: solid;
+}
+section div:nth-child(2){
+	height: 50px;
+	line-height: 50px;
+	padding-left: 10px;
+	border-color: lightgray;
+	border-width: 3px;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-style: solid;
+}
+table{
+	border: lightgray 3px solid;
+	width: 100%;
+	/* 边框合并，该属性设置表格的边框是否被合并为一个单一的边框，还是象在标准的 HTML 中那样分开显示 */
+	border-collapse: collapse
+}
+th,td,tr{
+	border:lightgray 2px solid;
+	font-size: 13px;
+}
+th{
+	height: 50px;
+}
+td{
+	text-align: center;
+}
+td img{
+	height: 50px;
+	margin: 0 15px;
+	
+}
+footer{
+	background-color: lightseagreen;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 13px;
+}

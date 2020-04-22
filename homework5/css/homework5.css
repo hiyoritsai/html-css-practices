@@ -1,0 +1,55 @@
+*{
+	font-family: "microsoft yahei";
+	font-size: 24px;
+}
+.mainbody{
+	width: 1200px;
+	height: 560px;
+	margin: 30px auto;
+}
+.tabgroup{
+	width: 1200px;
+	height: 100px;
+}
+.tabgroup>div{
+	text-align: center;
+	line-height: 100px;
+	width: 25%;
+	height: 100%;
+	float: left;
+	border-radius: 10px 10px 0 0;
+	background-color: #fff;
+	color: #666;
+}
+.tabgroup>div:after{
+	content: '';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	
+}
+.tabgroup>div:hover{
+	background-color: #fc0;
+	font-weight: bold;
+}
+.tabgroup>div.tab-active{
+	background-color: #fc0;
+	font-weight: bold;
+}
+.picgroup>div{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	display: none;
+	cursor: pointer;
+}
+.picgroup>div.pic-active{
+	display: block;
+}
+.picgroup{
+	width: 100%;
+	height: 460px;
+	overflow: hidden;
+	position: relative;
+}

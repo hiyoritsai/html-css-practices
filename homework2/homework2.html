@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>CSS网页布局</title>
+	<link rel="stylesheet" href="css/homework2.css" type="text/css"/>
+	
+</head>
+<body>
+	<!-- 导航区 -->
+	<div class="nav">
+		<div class="nav-logo"><a href="#"><img src="images/logo.png" /></a></div>
+		<div class="nav-content">
+			<ul>
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">GALLERY</a></li>
+				<li><a href="#">FACULTY</a></li>
+				<li><a href="#">EVENTS</a></li>
+				<li><a href="#">CONTACT</a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<!-- banner区 -->
+	<div class="banner">
+		<!-- 背景图 -->
+		<img class="banner-img" src="images/banner3.jpg" />
+		<!-- 遮罩层 -->
+		<div class="login">
+			<div>
+				<input type="text" placeholder="Your Name"/>
+			</div>
+			<div>
+				<input type="text" placeholder="Your Phone"/>
+			</div>
+			<div>
+				<input type="text" placeholder="Your Email"/>
+			</div>
+			<div>
+				<input type="textarea" placeholder="Write Your Comments Here" style="height: 129px;"/>
+			</div>
+			<div>
+				<button>SEND MESSAGE</button>
+			</div>
+		</div>
+	</div>
+	<!-- about区 -->
+	<div class="about">
+		<!-- 上方文字 -->
+		<div class="about-top">
+			<h1 style="font-size: 45px;">ABOUT</h1>
+			<h1 style="color: #07cbc9;">—</h1>
+			<p>
+				Lorem Ipsum id simply dummy text of the printing and typesetting<br />
+				industry. Lorem Ipsum has been the industry's standard dummy<br />
+				text ever since the 1500s.
+			</p>
+		</div>
+		<!-- 中间图文 -->
+		<div class="about-middle">
+			<!-- 左侧文字 -->
+			<div class="about-middle-left">
+				<h1>
+					&nbsp;A WORD<br />
+					ABOUT US
+				</h1>
+			</div>
+			<!-- 中间图片 -->
+			<div class="about-middle-middle">
+				<img src="images/bb3.jpg"/>
+			</div>
+			<!-- 右侧文字 -->
+			<div class="about-middle-right">
+				<div>
+					<h2>70000</h2>
+					<h1>—</h1>
+					<p>Students</p>
+				</div>
+				<div>
+					<h2>600</h2>
+					<h1>—</h1>
+					<p>Faculty</p>
+				</div>
+			</div>
+			<!-- 半透明遮罩层 -->
+			<div class="about-middle-float">
+				<p>
+					Praesent dignissim viverra est, sed<br />
+					bibendum ligula congue non. Sed ac nisl<br />
+					et felis gravida commodo? Suspendisse<br />
+					eget ullamcorper ipsum. Suspendisse<br />
+					diam amet.
+				</p>
+				<button>
+					EXPLORE
+				</button>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<!-- 下方图文 -->
+		<div class="about-bottom">
+			<!-- 上排4个 -->
+			<div>
+				<div><img src="images/b1.jpg"/></div>
+				<div>
+					<p class="about-bottom-site">
+						Library
+					</p>
+					<p class="about-bottom-describe">
+						Lorem Ipsum is simply dummy text of the<br />
+						printing and typesetting industry
+					</p>
+					<p class="about-bottom-content">
+						Lorem Ipsum has been the indstry's standard dummy<br />
+						text ever since the 1500s, when an unknown printer took<br />
+						a galley of type and scrambled it to make a type<br />
+						specimen book.
+					</p>
+					<button>EXPLORE</button>
+				</div>
+				<div><img src="images/b2.jpg"/></div>
+				<div>
+					<p class="about-bottom-site">Computer Lab</p>
+					<p class="about-bottom-describe">
+						Lorem Ipsum is simply dummy text of the<br />
+						printing and typesetting industry
+					</p>
+					<p class="about-bottom-content">
+						Lorem Ipsum has been the indstry's standard dummy<br />
+						text ever since the 1500s, when an unknown printer took<br />
+						a galley of type and scrambled it to make a type<br />
+						specimen book.
+					</p>
+					<button>EXPLORE</button>
+				</div>
+			</div>
+			<!-- 空div清除浮动，解决父元素塌陷问题 -->
+			<div class="clear"></div>
+			<!-- 下排4个 -->
+			<div>
+				<div>
+					<p class="about-bottom-site">Conference Hall</p>
+					<p class="about-bottom-describe">
+						Lorem Ipsum is simply dummy text of the<br />
+						printing and typesetting industry
+					</p>
+					<p class="about-bottom-content">
+						Lorem Ipsum has been the indstry's standard dummy<br />
+						text ever since the 1500s, when an unknown printer took<br />
+						a galley of type and scrambled it to make a type<br />
+						specimen book.
+					</p>
+					<button>EXPLORE</button>
+				</div>
+				<div><img src="images/b3.jpg"/></div>
+				<div>
+					<p class="about-bottom-site">
+						Play Ground
+					</p>
+					<p class="about-bottom-describe">
+						Lorem Ipsum is simply dummy text of the<br />
+						printing and typesetting industry
+					</p>
+					<p class="about-bottom-content">
+						Lorem Ipsum has been the indstry's standard dummy<br />
+						text ever since the 1500s, when an unknown printer took<br />
+						a galley of type and scrambled it to make a type<br />
+						specimen book.
+					</p>
+					<button>EXPLORE</button>
+				</div>
+				<div><img src="images/b4.jpg"/></div>
+			</div>
+			<!-- 空div清除浮动，解决父元素塌陷问题 -->
+			<div class="clear"></div>
+		</div>
+	</div>
+	<!-- gallery区 -->
+	<div class="gallery">
+		<!-- 上方文字 -->
+		<div class="gallery-top">
+			<h1 style="font-size: 45px;">GALLERY</h1>
+			<h1 style="color: #07cbc9;">—</h1>
+			<p>
+				Lorem Ipsum id simply dummy text of the printing and typesetting<br />
+				industry. Lorem Ipsum has been the industry's standard dummy<br />
+				text ever since the 1500s.
+			</p>
+		</div>
+		<!-- 下方图片 -->
+		<div class="gallery-bottom">
+			<!-- 上排3个 -->
+			<div>
+				<div>
+					<img src="images/03-01.jpg" />
+					<div>SCIENCE LAB</div>
+				</div>
+				<div>
+					<img src="images/03-02.jpg" />
+					<div>INDOOR STATDIUM</div>
+				</div>
+				<div>
+					<img src="images/03-03.jpg" />
+					<div>TRANSPORTATION</div>
+				</div>
+			</div>
+			<!-- 空div清除浮动，解决父元素塌陷问题 -->
+			<div class="clear"></div>
+			<!-- 下排3个 -->
+			<div>
+				<div>
+					<img src="images/03-04.jpg" />
+					<div>KIDS ROOM</div>
+				</div>
+				<div>
+					<img src="images/03-05.jpg" />
+					<div>MEDITATION CLASSES</div>
+				</div>
+				<div>
+					<img src="images/03-06.jpg" />
+					<div>KIDS PLAY GROUND</div>
+				</div>
+			</div>
+			<!-- 空div清除浮动，解决父元素塌陷问题 -->
+			<div class="clear"></div>
+		</div>
+	</div>
+	<!-- 页尾区 -->
+	<div class="footer">
+		©2016 imooc.com 京ICP备13046642号
+	</div>
+</body>
+</html>

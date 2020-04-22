@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	position: relative;
+}
+.sky{
+	height: 60vh;
+	width: 100%;
+	background:linear-gradient(rgb(196,228,253),#fff);
+	position: relative;
+}
+.grass{
+	height: 40vh;
+	width: 100%;
+	background:linear-gradient(#fff,rgb(148,190,89));
+}
+.rabbit>img{
+	height: 250px;
+	position: absolute;
+	bottom: 50px;
+	right: 200px;
+	
+}
+.cloud1,.cloud2,.cloud3,.cloud4,.cloud5{
+	position: absolute;
+}
+.cloud1{
+	left: 220px;
+	top: 70px;
+	animation: cloud1 linear 5s infinite;
+	
+}
+.cloud2{
+	left: 250px;
+	top: -10px;
+	transform: scale(0.8);
+	animation: cloud2 linear 6s infinite;
+}
+.cloud3{
+	left: 270px;
+	top: 150px;
+	transform: scale(0.8);
+	animation: cloud3 linear 8s infinite;
+}
+.cloud4{
+	left: 1000px;
+	top: 0px;
+	transform: scale(0.7);
+	animation: cloud4 linear 10s infinite;
+}
+.cloud5{
+	left: 1000px;
+	top: 80px;
+	transform: scale(0.5);
+	animation: cloud5 linear 5s infinite;
+}
+.scloud1{
+	background-color: #fff;
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	position: absolute;
+	/* border: 2px solid black; */
+}
+.scloud2{
+	background-color: #fff;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	position: absolute;
+	left: -53px;
+	top: 27px;
+	/* border: 2px solid black; */
+/* 	transform: translate(-53px,-82px);/* translate是相对于元素原本在文档流中的位置而言，但仍然在文档流中保留位置 */ 
+}
+.scloud3{
+	background-color: #fff;
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	position: absolute;
+	left: -35px;
+	top: 51px;
+	/* border: 2px solid black; */
+/* 	transform: translate(-38px,-120px); */
+}
+.scloud4{
+	background-color: #fff;/*  */
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	position: absolute;
+	left: -70px;
+	top: 50px;
+/* 	border: 2px solid black; */
+/* 	transform: translate(-80px,-200px); */
+}
+.scloud5{
+	background-color: #fff;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	position: absolute;
+	left: 80px;
+	top: 53px;
+	/* border: 2px solid black; */
+/* 	transform: translate(74px,-265px); */
+}
+@keyframes cloud1{
+	from{transform: translateX(1090px);}
+	to{transform: translateX(-340px);}
+}
+@keyframes cloud2{
+	from{transform: translateX(1060px);}
+	to{transform: translateX(-380px);}
+}
+@keyframes cloud3{
+	from{transform: translateX(1040px); }
+	to{transform: translateX(-400px); }
+}
+@keyframes cloud4{
+	from{transform: translateX(1000px); }
+	to{transform: translateX(-1000px); }
+}
+/*@keyframes cloud5{
+	from{transform: translateX(100vw);}
+	to{transform: translateX(-1000px);}
+} */
